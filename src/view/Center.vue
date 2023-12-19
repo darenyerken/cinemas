@@ -28,6 +28,8 @@ export default {
         } else next()
     }
 }
+
+
 </script>
 <script setup>
 import { Icon as VanIcon } from 'vant';
@@ -36,6 +38,7 @@ import {
     Cell as VanCell, CellGroup as VanCellGroup,
     Row as VanRow, Col as VanCol
 } from 'vant'
+
 // import 'vant/lib/index.css'
 
 </script>
@@ -45,7 +48,7 @@ import {
 .top_bgi {
     width: 100%;
     height: 35vh;
-    background-image: url('GodFather.jpg');
+    background-image: url('https://github.com/darenyerken/cinemas/blob/main/dist/GodFather.jpg?raw=true');
     background-size: 100%;
     background-position: center bottom;
     border-bottom-left-radius: 40%;
@@ -57,7 +60,7 @@ import {
         height: 50px;
         border-radius: 50%;
         border: 1px solid #fff;
-        background-image: url('Mike.jpg');
+        background-image: url('https://github.com/darenyerken/cinemas/blob/main/dist/Mike.jpg?raw=true');
         background-size: cover;
         background-position: center;
 

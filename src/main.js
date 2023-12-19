@@ -8,7 +8,7 @@ import 'vant/lib/index.css';
 
 
 // 导入配置
-import './6-vant/util/config.js'
+import './util/config.js'
 
 const app = createApp(App)
 app.use(router)  // 注册路由插件
